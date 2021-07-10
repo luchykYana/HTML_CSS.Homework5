@@ -1,0 +1,207 @@
+@media screen and (max-width: 480px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    .sides {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header_top_menu, .first_screen_right, .second_screen_left, .fifth_screen_right, .sixth_screen_right, .footer_screen .a {
+        display: none;
+    }
+
+    .first_screen, .second_screen, .fifth_screen, .sixth_screen, .seventh_screen, .footer_screen {
+        height: 100vh;
+    }
+
+    .button_mobile {
+        display: flex;
+    }
+
+    .first_screen {
+        /*width: 100%;*/
+        padding-bottom: 50px;
+        background-color: teal;
+    }
+
+    .first_screen_left h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    .first_screen_left p {
+        color: #FFFFFF;
+    }
+
+    .first_screen_button {
+        position: initial;
+        margin: 50px auto 0;
+    }
+
+    .first_screen_button button:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .second_screen {
+        /*width: 100%;*/
+        padding-bottom: 0;
+    }
+
+    .second_screen_right h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .third_screen {
+        /*width: 100%;*/
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .third_screen_title {
+        margin-bottom: 40px;
+    }
+
+    .third_screen_title h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .third_screen_items {
+        display: block;
+        width: 480px;
+    }
+
+    .third_screen_items .item {
+        margin-bottom: 30px;
+    }
+
+    .third_screen_items h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .third_screen_button button:hover{
+        background-color: #FDECED;
+    }
+
+
+    .fourth_screen{
+        /*width: 100%;*/
+    }
+
+    .fourth_screen_title h2 {
+        font-size: 40px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .fourth_screen_items {
+        display: block;
+    }
+
+    .fourth_screen_items .item {
+        margin-bottom: 50px;
+    }
+
+    .fourth_screen_items h3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .fifth_screen {
+        /*width: 100%;*/
+        display: block;
+        padding-top: 55px;
+    }
+
+    .fifth_screen_left {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .fifth_screen_left h3 {
+        padding-left: 75px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .mobile_images {
+        display: block;
+    }
+
+    .mobile_images img {
+        margin-bottom: 10px;
+    }
+
+    .sixth_screen{
+        /*width: 100%;*/
+    }
+
+    .sixth_screen h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .sixth_screen p {
+        width: 400px
+    }
+
+    .sixth_screen_left button:hover{
+        background-color: #FDECED;;
+    }
+
+    .seventh_screen{
+        /*width: 100%;*/
+    }
+
+    .seventh_screen .items {
+        display: block;
+        padding: 30px 40px;
+    }
+
+    .seventh_screen h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .seventh_screen button {
+        position: initial;
+        margin: 50px auto 0;
+        display: flex;
+    }
+
+    .seventh_screen button:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .footer_screen_top {
+        margin-bottom: 70px;
+    }
+
+    .footer_screen_items1 {
+        display: block;
+    }
+
+    .footer_screen_items2 .item {
+        margin-top: 8px;
+    }
+
+    .footer_screen_bottom_items {
+        grid-column-gap: 10px;
+    }
+
+    .footer_screen_bottom_items .item {
+        width: 150px;
+    }
+
+    .footer_screen .logo{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 370px;
+    }
+}
